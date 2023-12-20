@@ -1,0 +1,88 @@
+
+/* Lineas generales*/
+html{
+background: #E2B281;
+background: -moz-linear-gradient(left, #E2B281 0%, #E2AB3E 35%, #AF9489 100%);
+background: -webkit-linear-gradient(left, #E2B281 0%, #E2AB3E 35%, #AF9489 100%);
+background: linear-gradient(to right, #E2B281 0%, #E2AB3E 35%, #AF9489 100%);
+padding-left: 5%;
+padding-right: 5%;
+padding-bottom: 5%;
+}
+/*Elementos sitio web*/
+nav {
+border-style: solid;
+}
+footer {
+
+}
+
+/*Secciones cartilla*/
+.Portada {
+  position: relative;
+  text-align: center;
+  border-width:relative;
+  border-style: double;
+  border-color: rgba(0,0,0);
+}
+.título {
+  position: relative;
+  text-align: center;
+  font-family: Times New Roman, Baskerville, serif;
+  font-size: 20;
+  font-weight: bold;
+}
+
+.subtítulo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.imprenta {
+  font-family: Garamond, Palatino, serif;
+  font-size: 16px;
+}
+.cuerpo {
+  position: relative;
+  text-align: justify;
+  font-family: garamond;
+  font-size: 18px;
+}
+
+/* Estilo letras y texto */
+.cursiva{
+  font-style: italic;
+}
+.firma{
+  text-align: right;
+
+}
+/*Elementos adicionales*/
+.tablaSimple{
+position: relative;
+display: flex;
+justify-content: center;
+
+}
+table{
+border-style: double;
+border-width: 7px;
+border-color: black;
+font-size: 150%;
+border-collapse: collapse;
+margin-bottom: 5%;
+}
+th{
+  border-style:solid;
+  border-width:2px;
+
+}
+td{
+  border-style: solid;
+  border-width: 2px;
+}
+.títuloTabla{
+text-align: center;
+font-size: 200%;
+}
